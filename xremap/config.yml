@@ -1,0 +1,35 @@
+# keymap:
+#   - name: Global
+#     remap:
+#       M_R-q: ALT_R-KEY_7
+#       M_R-w: ALT_R-KEY_8
+#       M_R-e: ALT_R-KEY_9
+#       M_R-r: ALT_R-KEY_0
+#       M_R-a: KEY_KPLEFTPAREN
+#       M_R-s: KEY_KPRIGHTPAREN
+#       M_R-d: KEY_KPSLASH
+modmap:
+  - name: aron
+    remap:
+      # KEY_K: KEY_E
+      # KEY_E: KEY_J
+      # KEY_J: KEY_N
+      # KEY_N: KEY_K
+      KEY_E: KEY_F
+      KEY_T: KEY_G
+      KEY_F: KEY_T
+      KEY_G: KEY_J
+      KEY_J: KEY_N
+      KEY_K: KEY_E
+      KEY_N: KEY_K
+      KEY_CAPSLOCK: KEY_LEFTCTRL
+keymap:
+  - name: Global
+    remap:
+      M_R-q: ALT_R-KEY_7
+      M_R-w: ALT_R-KEY_8
+      M_R-j: ALT_R-KEY_9
+      M_R-r: ALT_R-KEY_0
+      M_R-a: KEY_KPLEFTPAREN
+      M_R-s: KEY_KPRIGHTPAREN
+      M_R-d: KEY_KPSLASH
